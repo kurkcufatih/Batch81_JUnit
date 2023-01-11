@@ -39,9 +39,13 @@ public class C04_Iframe {
         driver.get("https://html.com/tags/iframe/");
 
         /*
-        Bir web sitesinde bir video(youtube vs) varsa <iframe> tag'i içerisindeyse bu video'yu direkt locate edip çalıştırmak dinamik olmaz.
+        Bir web sitesinde bir video(youtube vs) varsa
+        <iframe> tag'i içerisindeyse bu video'yu direkt
+        locate edip çalıştırmak dinamik olmaz.
         Çünkü link değişebilir ve locate'imiz çalışmaz.
-        Bunun için bütün frame'leri bir array liste atıp index ile frame'i seçip sonrasında play tuşunu locate edip çalıştırabiliriz.
+        Bunun için bütün frame'leri bir array liste atıp
+        index ile frame'i seçip sonrasında play tuşunu
+         locate edip çalıştırabiliriz.
         */
 
         List<WebElement> iframeList = new ArrayList<>(driver.findElements(By.xpath("//iframe")));

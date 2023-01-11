@@ -17,10 +17,10 @@ public class C02_Allerts {
      Bir web sirtesine girdimizde karsimiza bir uyari mesaji yada bir butona tikladigimizda bir uyari(alert)
      cikabilir. Eger bu uyarıya incele(sag tik-inspect) yaoabiliyorsak bu tur alertt'lere HTML alert denir
      ve istedigimiz locate'i alabiliriz fakat gelen uyari kutusuna mudahale (sag tik-incele) edemiyorsak
-     bu tur alert'lere jd alert denir. js alert'lere mudahale edebilmek icin
+     bu tur alert'lere js alert denir. js alert'lere mudahale edebilmek icin
      - tamam yada ok icin --> driver.switchTo().alert().accept() kullanilir
      - iptal icin --> driver.switchTo().alert().dismiss() kullanilir
-     - Alert icindekiğ mesaji almak icin --> driver.switchTo().alert().getText() kullanilir
+     - Alert icindeki mesaji almak icin --> driver.switchTo().alert().getText() kullanilir
      - Alert bizde bir metin istiyorsa --> driver.switchTo().alert().sendKeys() kullanilir
      */
 

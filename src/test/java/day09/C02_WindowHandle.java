@@ -39,10 +39,11 @@ public class C02_WindowHandle {
     public void test01() {
 
         /*
-        Eğer bize verilen task'te sayfalar arası geçiş varsa her driver.get() methodundan sonra
-        driver'ın window handle değerini string bir değişkene atarız
-        Sonrasında farklı bir sayfaya ya da sekmeye gittikten sonra tekrar ilk sayfaya dönmemiz istenirse
-        String değişkene atadığımız window handle değerleriyle sayfalar arası geçiş yapabiliriz
+        Eğer bize verilen task'te sayfalar arası geçiş varsa her driver.get()
+        methodundan sonra driver'ın window handle değerini string bir değişkene
+        atarız. Sonrasında farklı bir sayfaya ya da sekmeye gittikten sonra
+        tekrar ilk sayfaya dönmemiz istenirse String değişkene atadığımız
+        window handle değerleriyle sayfalar arası geçiş yapabiliriz.
         */
 
         //1- Amazon Sayfasina girelim
